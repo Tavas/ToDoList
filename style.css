@@ -1,0 +1,286 @@
+body {
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+.container {
+ margin: auto;
+ text-align: center;
+ font-size: 15px;
+font-family: 'Rubik', sans-serif;
+}
+
+.cont {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #123652;
+}
+
+.done:hover {
+	color: white;
+	text-decoration: none;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+   font-size: 16px;
+   opacity: 0.6;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   font-size: 16px;
+   opacity: 0.6;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+   font-size: 16px;
+   opacity: 0.6;
+}
+
+input[type=text] {
+	width: 40%;
+	padding: 17px 5px;
+	background-color: #fff;
+	border: none;
+	    width: 40%;
+}
+
+input[type=text] {
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:hover {
+    width: 50%;
+}
+
+#userinput {
+	margin-top: 70px;
+	margin-bottom: 15px;
+
+}
+
+.footer {
+  position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	text-align: center;
+
+    overflow: hidden;
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-family: Roboto;
+	margin-bottom: 20px;
+}
+
+.logo {
+width: 45%;
+height: 45%;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+h1 {
+	margin-top: 80px;
+	font-size: 3em;
+
+}
+
+h3 {
+   margin-top: 35px;
+   margin-bottom: 10px;
+   letter-spacing: 1px;
+   font-size: 22px;
+   font-family: Ubuntu;
+}
+
+ul {
+	list-style-type: none;
+	justify-content: center;
+	display: flex;
+	margin-top: 35px;
+	margin-bottom: 30px;
+	flex-flow: row wrap;
+	margin-right: 30px;
+
+}
+
+li {
+	font-weight: bold;
+	margin: 15px 15px 5px 15px;
+	font-size: 16px;
+    
+}
+
+li:hover {
+  cursor: crosshair;
+}
+
+.forma {
+	margin-right: 15px;
+}
+
+button {
+	margin-left: 10px;
+	font-size: 11px;
+	color: white;
+	background-color: #90aec5;
+	border-color: #90aec5;
+	border-radius: 4px;
+}
+
+button:hover {
+	background-color: #072033;
+	border-color: #072033;
+		color: white;
+}
+
+li:hover {
+	color: #123652;
+	text-decoration: line-through;
+}
+
+.btn-danger {
+  margin-top: 5px;
+  margin-bottom: 35px;
+  background-color: #90aec5;
+  border-color: #90aec5;
+  color: white;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    opacity: 0.75;
+    margin-right: 20px;
+
+}
+
+.btn-danger:hover {
+	border-color: #072033;
+	background-color: #072033;
+}
+
+.btn-info {
+
+	background-color: #072033;
+	border-color: #072033;
+}
+
+.btn-info:focus {
+	background-color: #90aec5;
+}
+
+.btn-info:hover {
+	background-color: #90aec5;
+	border-color: #90aec5;
+}
+
+.btn-warning {
+	background-color: #072033;
+    border-color: #072033;
+}
+
+.btn-warning:focus {
+	background-color: #072033;
+}
+
+.btn-warning:active {
+	background-color: #072033;
+}
+
+.btn-warning:hover {
+	background-color: #90aec5;
+	border-color: #90aec5;
+	color: #fff;
+}
+
+a {
+	font-weight: bold;
+	color: #123652;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #072033;
+
+}
+
+h6 {
+	margin-top: 20px;
+}
+
+.form-control {
+	text-align: center;
+	margin: auto;
+}
+
+.popover {
+	background-color: #90aec5;
+}
+
+.popover-title {
+	background-color: #072033;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 85%;
+    }
+
+    .footer {
+      position: relative;
+    }
+}
+@charset "UTF-8";
